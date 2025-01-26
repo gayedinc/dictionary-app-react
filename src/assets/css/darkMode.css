@@ -1,0 +1,63 @@
+body.dark-mode {
+  height: 100vh;
+  background-color: #050505;
+}
+
+body.dark-mode .searchArea input {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+body.dark-mode .dropdown-btn {
+  color: #fff;
+}
+
+body.dark-mode .dropdown-menu {
+  background-color: #1F1F1F;
+  box-shadow: 0px 5px 30px 0px rgba(164, 69, 237, 1);
+}
+
+body.dark-mode .dropdown-item {
+  color: #fff;
+}
+
+body.dark-mode .dropdown-item:hover {
+  color: #A445ED;
+}
+
+body.dark-mode .word-pronun-text h3 {
+  color: #fff;
+}
+
+body.dark-mode .playBtn {
+  background-color: #2d1540;
+}
+
+body.dark-mode .word-type h3 {
+  color: #fff;
+}
+
+body.dark-mode .word-type span {
+  background-color: #3A3A3A;
+}
+
+body.dark-mode .word-type-first ul li, 
+body.dark-mode .word-type-second ul li {
+  color: #FFFFFF;
+}
+
+body.dark-mode .sourceUrl {
+  border-top: 1px solid #3A3A3A;
+}
+
+body.dark-mode .sourceUrl a {
+  color: #fff;
+}
+
+body.dark-mode .notFound h2 {
+  color: #fff;
+}
+
+body.dark-mode .playBtn:hover {
+  background-color: #462264;
+}

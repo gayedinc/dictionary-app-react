@@ -57,7 +57,7 @@ export default function Word({ word }) {
                   {word[0]?.meanings[1]?.definitions.map((x, i) => (
                     <li key={i}>
                       <p>{x.definition}</p>
-                      {x.example && <p className='example-text'>{x.example}</p>}
+                      {x.example && <p className='example-text'>"{x.example}"</p>}
                     </li>
                   ))}
                 </ul>
@@ -76,7 +76,7 @@ export default function Word({ word }) {
                   {word[0]?.meanings[2]?.definitions.map((x, i) => (
                     <li key={i}>
                       <p>{x.definition}</p>
-                      {x.example && <p className='example-text'>{x.example}</p>}
+                      {x.example && <p className='example-text'>"{x.example}"</p>}
                     </li>
                   ))}
                 </ul>

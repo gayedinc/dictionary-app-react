@@ -247,7 +247,7 @@
   }
 }
 
-.word-type-first, .word-type-second {
+.word-type-first, .word-type-second, .word-type-third {
 
   h5 {
     font-size: 16px;
@@ -468,7 +468,7 @@
     }
   }
   
-  .word-type-first, .word-type-second {
+  .word-type-first, .word-type-second, .word-type-third {
   
     h5 {
       font-size: 20px;

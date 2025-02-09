@@ -1,4 +1,4 @@
-# 🎉 Dictionary App - React Versiyonu!
+# 🎉 Dictionary App
 
 React ile geliştirdiğim **Dictionary App** projesi kullanıcılara kelimelerin anlamlarına, telaffuzlarına, eş anlamlarına ve örnek cümlelerine kolayca ulaşma imkânı sağlıyor. Bu uygulama sayesinde öğrenme deneyimini daha **interaktif** ve **keyifli** hale getirmeyi hedefledim.
 

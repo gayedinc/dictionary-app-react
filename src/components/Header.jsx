@@ -10,7 +10,7 @@ export default function Header({ error, fontType, setFontType, theme, handleChan
   return (
     <>
       <div className="header">
-        <div className="dictionaryIcon">
+        <div className="dictionaryIcon" onClick={() => window.location.href = "/"} style={{ cursor: "pointer" }}>
           <img src="/img/dictionary-book-icon.svg" alt="Dictionary Book Icon" />
         </div>
         <div className="headerLeftSide">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Word({ word }) {
+export default function Word({ word, setSearchInput }) {
   return (
     <>
       {word?.length > 0 &&
@@ -39,7 +39,16 @@ export default function Word({ word }) {
                 {word[0]?.meanings[0]?.synonyms?.length > 0 && (
                   <div className="synonyms">
                     <h5>Synonyms</h5>
-                    <p>{word[0]?.meanings[0]?.synonyms.join(", ")}</p>
+                    <div className="synonym-list">
+                      {word[0]?.meanings[0]?.synonyms.map((syn, i) => (
+                        <button
+                          key={i}
+                          className="synonym-btn"
+                          onClick={() => setSearchInput(syn)}>
+                          {syn}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                 )}
               </>

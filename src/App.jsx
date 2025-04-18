@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import Header from "./assets/components/Header.jsx"
-import Word from "./assets/components/Word.jsx"
-import NotFound from "./assets/components/NotFound.jsx"
+import Header from "./components/Header.jsx"
+import Word from "./components/Word.jsx"
+import NotFound from "./components/NotFound.jsx"
 import "./assets/css/darkMode.css";
 
 function App() {
@@ -68,7 +68,7 @@ function App() {
           setFontType={setFontType}
           error={error} />
         {notFound ?
-          <NotFound /> : <Word word={word} />}
+          <NotFound /> : <Word word={word} setSearchInput={setSearchInput} />}
       </div>
     </>
   )

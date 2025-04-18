@@ -283,9 +283,12 @@
   margin-top: 24px;
   margin-bottom: 32px;
 
-  p {
+  button {
     font-weight: 700;
     color: #A445ED;
+    border: none;
+    background: none;
+    cursor: pointer;
   }
 }
 

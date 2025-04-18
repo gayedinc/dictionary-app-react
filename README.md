@@ -69,7 +69,7 @@ I previously built a similar application using Vanilla JavaScript. However, with
 
 ## 🌐 Live Demo
 
-🔗 [https://dictionary-app.vercel.app](https://dictionary-app.vercel.app)
+🔗 [https://dictionary-app-react-opal.vercel.app](https://dictionary-app-react-opal.vercel.app)
 
 ## 🗂️ Project Structure
 
